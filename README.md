@@ -13,6 +13,8 @@ Connection: IP
 Copy the .pkg file to /user/ThirdPartyDrivers/Import  
 on the processor using an FTP client or Crestron Toolbox
 
+_Note: In Crestron Home Setup, the IP-Logic will show disconnected or offline. This is normal because HTTP/REST connections are only established for brief moments as the commands are being sent._
+
 ### Upgrade
 * Go to "Pair Devices" in Crestron Home Setup
 * Remove the IP-Logic from any rooms it is in
@@ -23,7 +25,7 @@ on the processor using an FTP client or Crestron Toolbox
 
 
 ## Crestron Home OS Package:
-## [Download Latest Crestron Package Here v6.0000.0009](https://github.com/tony722/Zigen.Ccd.IpLogic/raw/master/AET.Zigen.Ccd.IpLogic/bin/Debug/AET.Zigen.Ccd.IpLogic.pkg)
+## [Download Latest Crestron Package Here v6.0000.0010](https://github.com/tony722/Zigen.Ccd.IpLogic/raw/master/AET.Zigen.Ccd.IpLogic/bin/Debug/AET.Zigen.Ccd.IpLogic.pkg)
 
 
 ## Support
