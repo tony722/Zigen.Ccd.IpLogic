@@ -99,7 +99,7 @@ namespace AET.Zigen.Ccd.IpLogic {
         output = 0;
       }      
       commandSet.Command = "RouteHDMI";
-      var json = string.Format("{{'source':'{0}','destination':'{1}'}}", sourceAddr, destinationAddr);
+      var json = string.Format("{{\"source\":\"{0}\",\"destination\":\"{1}\"}}", sourceAddr, destinationAddr);
       if (EnableLogging) Log(string.Format("Zigen HXL CreateAVRouteCommand({0}): Input = {1}, Output = {2}. New command = RouteHDMI | {3}.", commandSet.Command, input, output, json));
       commandSet.Parameters = new object[] { "application/json", json };
     }
