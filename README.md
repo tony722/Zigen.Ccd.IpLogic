@@ -29,7 +29,7 @@ on the processor using an FTP client or Crestron Toolbox
 ## Support
 Support inquiries should be directed to [Zigen Corp](https://zingencorp.com): 818-654-5252. 
 
-Module by Tony Evert. 
+Module by Tony Evert / AET. 
 In addition to the hardware support provided by the manufacturer, I'm happy to offer paid support, custom modifications, and Crestron programming to assist you in any way needed. Contact me via http://iconsultants.net
 
 ## Source
