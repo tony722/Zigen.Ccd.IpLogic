@@ -23,7 +23,8 @@ on the processor using an FTP client or Crestron Toolbox
 
 
 ## Crestron Home OS Package:
-## [Download Latest Crestron Package Here v6.0000.0009](https://github.com/tony722/Zigen.Ccd.IpLogic/raw/master/AET.Zigen.Ccd.IpLogic/AET.Zigen.Ccd.IpLogic/bin/Debug/AET.Zigen.Ccd.IpLogic.pkg)
+## [Download Latest Crestron Package Here v6.0000.0009](https://github.com/tony722/Zigen.Ccd.IpLogic/raw/master/AET.Zigen.Ccd.IpLogic/bin/Debug/AET.Zigen.Ccd.IpLogic.pkg)
+
 
 ## Support
 Support inquiries should be directed to [Zigen Corp](https://zingencorp.com): 818-654-5252. 
