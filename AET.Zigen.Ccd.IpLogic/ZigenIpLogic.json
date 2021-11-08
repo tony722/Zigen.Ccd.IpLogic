@@ -1,0 +1,641 @@
+﻿{
+  "CrestronSerialDeviceApi": {
+    "DeviceSupport": {
+      "SupportsFeedback": false,
+      "SupportsDiscretePower": true,
+      "SupportsTogglePower": false,
+      "SupportsPowerFeedback": false,
+      "SupportsTemperatureFeedback": false,
+      "SupportsWarmUpTime": false,
+      "SupportsCoolDownTime": false,
+      "SupportsDisconnect": false,
+      "SupportsReconnect": false
+    },
+    "GeneralInformation": {
+      "DeviceType": "AV Switcher",
+      "Manufacturer": "Zigen",
+      "BaseModel": "IP-Logic",
+      "VersionDate": "2021-11-02 16:40:00.000",
+      "DriverVersion": "6.0000.0009",
+      "SdkVersion": "2.9.100",
+      "Description": "Zigen IP-Logic Essentials",
+      "Guid": "61C4723F-CDC2-4FC8-8368-B93C12295A87",
+      "SupportedSeries": ["IP-Logic"],
+
+      "SupportedModels": ["Essentials"]
+
+    },
+    "Api": {
+      "Communication": {
+        "CommunicationType": 1,
+        "Protocol": -1,
+        "Baud": -1,
+        "Parity": -1,
+        "HwHandshake": -1,
+        "SwHandshake": -1,
+        "DataBits": 0,
+        "StopBits": -1,
+        "Port": 80,
+        "EnableAutoPolling": true,
+        "EnableAutoReconnect": false,
+        "TimeBetweenCommands": 500,
+        "TimeBetweenCommandsOverride": 0,
+        "ResponseTimeout": 3000,
+        "WaitForResponse": false,
+        "IpProtocol": 0,
+        "IsUserAdjustable": false,
+        "Authentication": {
+          "Type": "None",
+          "Required": false
+        },
+        "IsSecure": false,
+        "UserAdjustableProperties": [],
+        "DeviceId": 0
+      },
+      "StandardCommands": {
+
+        "AudioVideoSwitcherRoute": {
+          "Command": "{input},{output}"
+        }
+      },
+
+      "AudioVideoSwitcher": {
+        "AutoDetectConfiguration": false,
+        "SupportsAudioBreakaway": false,
+        "NullInputIdentifier": "0",
+
+        "RoutableOutputs": [{
+
+            "Id": "output1",
+            "ApiIdentifier": "1",
+            "Name": "Output 1",
+            "Manufacturer": "Zigen",
+            "Model": "HDMI Output",
+            "Type": "DirectOutput",
+
+            "AudioOutputDetails": [{
+
+                "type": "Hdmi1",
+                "description": "Output 1 HDMI",
+                "connector": "Hdmi",
+                "friendlyName": "Output 1"
+              }
+            ],
+            "VideoOutputDetails": [{
+                "type": "Hdmi1",
+                "description": "Output 1 HDMI",
+                "connector": "Hdmi",
+                "friendlyName": "Output 1 HDMI"
+              }
+            ]
+          }, {
+            "Id": "output2",
+            "ApiIdentifier": "2",
+            "Name": "Output 2",
+            "Manufacturer": "Zigen",
+            "Model": "HDMI Output",
+            "Type": "DirectOutput",
+
+            "AudioOutputDetails": [{
+
+                "type": "Hdmi2",
+                "description": "Output 2 HDMI",
+                "connector": "Hdmi",
+                "friendlyName": "Output 2"
+              }
+            ],
+            "VideoOutputDetails": [{
+                "type": "Hdmi2",
+                "description": "Output 2 HDMI",
+                "connector": "Hdmi",
+                "friendlyName": "Output 2 HDMI"
+              }
+            ]
+          }, {
+            "Id": "output3",
+            "ApiIdentifier": "3",
+            "Name": "Output 3",
+            "Manufacturer": "Zigen",
+            "Model": "HDMI Output",
+            "Type": "DirectOutput",
+
+            "AudioOutputDetails": [{
+
+                "type": "Hdmi3",
+                "description": "Output 3 HDMI",
+                "connector": "Hdmi",
+                "friendlyName": "Output 3"
+              }
+            ],
+            "VideoOutputDetails": [{
+                "type": "Hdmi3",
+                "description": "Output 3 HDMI",
+                "connector": "Hdmi",
+                "friendlyName": "Output 3 HDMI"
+              }
+            ]
+          }, {
+            "Id": "output4",
+            "ApiIdentifier": "4",
+            "Name": "Output 4",
+            "Manufacturer": "Zigen",
+            "Model": "HDMI Output",
+            "Type": "DirectOutput",
+
+            "AudioOutputDetails": [{
+
+                "type": "Hdmi4",
+                "description": "Output 4 HDMI",
+                "connector": "Hdmi",
+                "friendlyName": "Output 4"
+              }
+            ],
+            "VideoOutputDetails": [{
+                "type": "Hdmi4",
+                "description": "Output 4 HDMI",
+                "connector": "Hdmi",
+                "friendlyName": "Output 4 HDMI"
+              }
+            ]
+          }, {
+            "Id": "output5",
+            "ApiIdentifier": "5",
+            "Name": "Output 5",
+            "Manufacturer": "Zigen",
+            "Model": "HDMI Output",
+            "Type": "DirectOutput",
+
+            "AudioOutputDetails": [{
+
+                "type": "Hdmi5",
+                "description": "Output 5 HDMI",
+                "connector": "Hdmi",
+                "friendlyName": "Output 5"
+              }
+            ],
+            "VideoOutputDetails": [{
+                "type": "Hdmi5",
+                "description": "Output 5 HDMI",
+                "connector": "Hdmi",
+                "friendlyName": "Output 5 HDMI"
+              }
+            ]
+          }, {
+            "Id": "output6",
+            "ApiIdentifier": "6",
+            "Name": "Output 6",
+            "Manufacturer": "Zigen",
+            "Model": "HDMI Output",
+            "Type": "DirectOutput",
+
+            "AudioOutputDetails": [{
+
+                "type": "Hdmi6",
+                "description": "Output 6 HDMI",
+                "connector": "Hdmi",
+                "friendlyName": "Output 6"
+              }
+            ],
+            "VideoOutputDetails": [{
+                "type": "Hdmi6",
+                "description": "Output 6 HDMI",
+                "connector": "Hdmi",
+                "friendlyName": "Output 6 HDMI"
+              }
+            ]
+          }, {
+            "Id": "output7",
+            "ApiIdentifier": "7",
+            "Name": "Output 7",
+            "Manufacturer": "Zigen",
+            "Model": "HDMI Output",
+            "Type": "DirectOutput",
+
+            "AudioOutputDetails": [{
+
+                "type": "Hdmi7",
+                "description": "Output 7 HDMI",
+                "connector": "Hdmi",
+                "friendlyName": "Output 7"
+              }
+            ],
+            "VideoOutputDetails": [{
+                "type": "Hdmi7",
+                "description": "Output 7 HDMI",
+                "connector": "Hdmi",
+                "friendlyName": "Output 7 HDMI"
+              }
+            ]
+          }, {
+            "Id": "output8",
+            "ApiIdentifier": "8",
+            "Name": "Output 8",
+            "Manufacturer": "Zigen",
+            "Model": "HDMI Output",
+            "Type": "DirectOutput",
+
+            "AudioOutputDetails": [{
+
+                "type": "Hdmi8",
+                "description": "Output 8 HDMI",
+                "connector": "Hdmi",
+                "friendlyName": "Output 8"
+              }
+            ],
+
+            "VideoOutputDetails": [{
+                "type": "Hdmi8",
+                "description": "Output 8 HDMI",
+                "connector": "Hdmi",
+                "friendlyName": "Output 8 HDMI"
+              }
+            ]
+          }
+        ],
+        "RoutableInputs": [{
+
+            "ApiIdentifier": "1",
+            "Id": "input1",
+            "Name": "Input 1",
+            "Manufacturer": "Zigen",
+            "Model": "HDMI Input",
+            "Type": "DirectInput",
+            "AudioInputDetails": [{
+
+                "type": "Hdmi1",
+                "description": "Input 1 HDMI",
+                "connector": "Hdmi",
+                "friendlyName": "Input 1 HDMI"
+              }
+            ],
+            "VideoInputDetails": [{
+                "type": "Hdmi1",
+                "description": "Input 1 HDMI",
+                "connector": "Hdmi",
+                "friendlyName": "Input 1 HDMI"
+              }
+            ]
+          }, {
+
+            "ApiIdentifier": "2",
+            "Id": "input2",
+            "Name": "Input 2",
+            "Manufacturer": "Zigen",
+            "Model": "HDMI Input",
+            "Type": "DirectInput",
+            "AudioInputDetails": [{
+
+                "type": "Hdmi2",
+                "description": "Input 2 HDMI",
+                "connector": "Hdmi",
+                "friendlyName": "Input 2 HDMI"
+              }
+            ],
+            "VideoInputDetails": [{
+                "type": "Hdmi2",
+                "description": "Input 2 HDMI",
+                "connector": "Hdmi",
+                "friendlyName": "Input 2 HDMI"
+              }
+            ]
+          }, {
+
+            "ApiIdentifier": "3",
+            "Id": "input3",
+            "Name": "Input 3",
+            "Manufacturer": "Zigen",
+            "Model": "HDMI Input",
+            "Type": "DirectInput",
+            "AudioInputDetails": [{
+
+                "type": "Hdmi3",
+                "description": "Input 3 HDMI",
+                "connector": "Hdmi",
+                "friendlyName": "Input 3 HDMI"
+              }
+            ],
+            "VideoInputDetails": [{
+                "type": "Hdmi3",
+                "description": "Input 3 HDMI",
+                "connector": "Hdmi",
+                "friendlyName": "Input 3 HDMI"
+              }
+            ]
+          }, {
+
+            "ApiIdentifier": "4",
+            "Id": "input4",
+            "Name": "Input 4",
+            "Manufacturer": "Zigen",
+            "Model": "HDMI Input",
+            "Type": "DirectInput",
+            "AudioInputDetails": [{
+
+                "type": "Hdmi4",
+                "description": "Input 4 HDMI",
+                "connector": "Hdmi",
+                "friendlyName": "Input 4 HDMI"
+              }
+            ],
+            "VideoInputDetails": [{
+                "type": "Hdmi4",
+                "description": "Input 4 HDMI",
+                "connector": "Hdmi",
+                "friendlyName": "Input 4 HDMI"
+              }
+            ]
+          }, {
+
+            "ApiIdentifier": "5",
+            "Id": "input5",
+            "Name": "Input 5",
+            "Manufacturer": "Zigen",
+            "Model": "HDMI Input",
+            "Type": "DirectInput",
+            "AudioInputDetails": [{
+
+                "type": "Hdmi5",
+                "description": "Input 5 HDMI",
+                "connector": "Hdmi",
+                "friendlyName": "Input 5 HDMI"
+              }
+            ],
+            "VideoInputDetails": [{
+                "type": "Hdmi5",
+                "description": "Input 5 HDMI",
+                "connector": "Hdmi",
+                "friendlyName": "Input 5 HDMI"
+              }
+            ]
+          }, {
+
+            "ApiIdentifier": "6",
+            "Id": "input6",
+            "Name": "Input 6",
+            "Manufacturer": "Zigen",
+            "Model": "HDMI Input",
+            "Type": "DirectInput",
+            "AudioInputDetails": [{
+
+                "type": "Hdmi6",
+                "description": "Input 6 HDMI",
+                "connector": "Hdmi",
+                "friendlyName": "Input 6 HDMI"
+              }
+            ],
+            "VideoInputDetails": [{
+                "type": "Hdmi6",
+                "description": "Input 6 HDMI",
+                "connector": "Hdmi",
+                "friendlyName": "Input 6 HDMI"
+              }
+            ]
+          }, {
+
+            "ApiIdentifier": "7",
+            "Id": "input7",
+            "Name": "Input 7",
+            "Manufacturer": "Zigen",
+            "Model": "HDMI Input",
+            "Type": "DirectInput",
+            "AudioInputDetails": [{
+
+                "type": "Hdmi7",
+                "description": "Input 7 HDMI",
+                "connector": "Hdmi",
+                "friendlyName": "Input 7 HDMI"
+              }
+            ],
+            "VideoInputDetails": [{
+                "type": "Hdmi7",
+                "description": "Input 7 HDMI",
+                "connector": "Hdmi",
+                "friendlyName": "Input 7 HDMI"
+              }
+            ]
+          }, {
+
+            "ApiIdentifier": "8",
+            "Id": "input8",
+            "Name": "Input 8",
+            "Manufacturer": "Zigen",
+            "Model": "HDMI Input",
+            "Type": "DirectInput",
+            "AudioInputDetails": [{
+
+                "type": "Hdmi8",
+                "description": "Input 8 HDMI",
+                "connector": "Hdmi",
+                "friendlyName": "Input 8 HDMI"
+              }
+            ],
+
+            "VideoInputDetails": [{
+
+                "type": "Hdmi8",
+                "description": "Input 8 HDMI",
+                "connector": "Hdmi",
+                "friendlyName": "Input 8"
+              }
+            ]
+
+          }
+        ]
+      }
+    },
+    "UserAttributes": [{
+        "Label": "Input1 MAC",
+        "Description": "MAC Address of transmitter to associate with 'Input1'",
+        "ParameterId": "Input1",
+        "TypeName": "Custom",
+        "RequiredForConnection": "None",
+        "Persistent": true,
+        "Data": {
+          "DataType": "String",
+          "DefaultValue": "801f1201....",
+          "Mask": ""
+        }
+      },{
+        "Label": "Input2 MAC",
+        "Description": "MAC Address of transmitter to associate with 'Input2'",
+        "ParameterId": "Input2",
+        "TypeName": "Custom",
+        "RequiredForConnection": "None",
+        "Persistent": true,
+        "Data": {
+          "DataType": "String",
+          "DefaultValue": "801f1202....",
+          "Mask": ""
+        }
+      },{
+        "Label": "Input3 MAC",
+        "Description": "MAC Address of transmitter to associate with 'Input3'",
+        "ParameterId": "Input3",
+        "TypeName": "Custom",
+        "RequiredForConnection": "None",
+        "Persistent": true,
+        "Data": {
+          "DataType": "String",
+          "DefaultValue": "801f1203....",
+          "Mask": ""
+        }
+      },{
+        "Label": "Input4 MAC",
+        "Description": "MAC Address of transmitter to associate with 'Input4'",
+        "ParameterId": "Input4",
+        "TypeName": "Custom",
+        "RequiredForConnection": "None",
+        "Persistent": true,
+        "Data": {
+          "DataType": "String",
+          "DefaultValue": "801f1204....",
+          "Mask": ""
+        }
+      },{
+        "Label": "Input5 MAC",
+        "Description": "MAC Address of transmitter to associate with 'Input5'",
+        "ParameterId": "Input5",
+        "TypeName": "Custom",
+        "RequiredForConnection": "None",
+        "Persistent": true,
+        "Data": {
+          "DataType": "String",
+          "DefaultValue": "801f12......",
+          "Mask": ""
+        }
+      },{
+        "Label": "Input6 MAC",
+        "Description": "MAC Address of transmitter to associate with 'Input6'",
+        "ParameterId": "Input6",
+        "TypeName": "Custom",
+        "RequiredForConnection": "None",
+        "Persistent": true,
+        "Data": {
+          "DataType": "String",
+          "DefaultValue": "801f12......",
+          "Mask": ""
+        }
+      },{
+        "Label": "Input7 MAC",
+        "Description": "MAC Address of transmitter to associate with 'Input7'",
+        "ParameterId": "Input7",
+        "TypeName": "Custom",
+        "RequiredForConnection": "None",
+        "Persistent": true,
+        "Data": {
+          "DataType": "String",
+          "DefaultValue": "801f12......",
+          "Mask": ""
+        }
+      },{
+        "Label": "Input8 MAC",
+        "Description": "MAC Address of transmitter to associate with 'Input8'",
+        "ParameterId": "Input8",
+        "TypeName": "Custom",
+        "RequiredForConnection": "None",
+        "Persistent": true,
+        "Data": {
+          "DataType": "String",
+          "DefaultValue": "801f12......",
+          "Mask": ""
+        }
+      },{
+        "Label": "Output1 MAC",
+        "Description": "MAC Address of receiver to associate with 'Output1'",
+        "ParameterId": "Output1",
+        "TypeName": "Custom",
+        "RequiredForConnection": "None",
+        "Persistent": true,
+        "Data": {
+          "DataType": "String",
+          "DefaultValue": "801f12F1....",
+          "Mask": ""
+        }
+      },{
+        "Label": "Output2 MAC",
+        "Description": "MAC Address of receiver to associate with 'Output2'",
+        "ParameterId": "Output2",
+        "TypeName": "Custom",
+        "RequiredForConnection": "None",
+        "Persistent": true,
+        "Data": {
+          "DataType": "String",
+          "DefaultValue": "801f12F2....",
+          "Mask": ""
+        }
+      },{
+        "Label": "Output3 MAC",
+        "Description": "MAC Address of receiver to associate with 'Output3'",
+        "ParameterId": "Output3",
+        "TypeName": "Custom",
+        "RequiredForConnection": "None",
+        "Persistent": true,
+        "Data": {
+          "DataType": "String",
+          "DefaultValue": "801f12F3....",
+          "Mask": ""
+        }
+      },{
+        "Label": "Output4 MAC",
+        "Description": "MAC Address of receiver to associate with 'Output4'",
+        "ParameterId": "Output4",
+        "TypeName": "Custom",
+        "RequiredForConnection": "None",
+        "Persistent": true,
+        "Data": {
+          "DataType": "String",
+          "DefaultValue": "801f12F4....",
+          "Mask": ""
+        }
+      },{
+        "Label": "Output5 MAC",
+        "Description": "MAC Address of receiver to associate with 'Output5'",
+        "ParameterId": "Output5",
+        "TypeName": "Custom",
+        "RequiredForConnection": "None",
+        "Persistent": true,
+        "Data": {
+          "DataType": "String",
+          "DefaultValue": "801f12......",
+          "Mask": ""
+        }
+      },{
+        "Label": "Output6 MAC",
+        "Description": "MAC Address of receiver to associate with 'Output6'",
+        "ParameterId": "Output6",
+        "TypeName": "Custom",
+        "RequiredForConnection": "None",
+        "Persistent": true,
+        "Data": {
+          "DataType": "String",
+          "DefaultValue": "801f12......",
+          "Mask": ""
+        }
+      },{
+        "Label": "Output7 MAC",
+        "Description": "MAC Address of receiver to associate with 'Output7'",
+        "ParameterId": "Output7",
+        "TypeName": "Custom",
+        "RequiredForConnection": "None",
+        "Persistent": true,
+        "Data": {
+          "DataType": "String",
+          "DefaultValue": "801f12......",
+          "Mask": ""
+        }
+      },{
+        "Label": "Output8 MAC",
+        "Description": "MAC Address of receiver to associate with 'Output8'",
+        "ParameterId": "Output8",
+        "TypeName": "Custom",
+        "RequiredForConnection": "None",
+        "Persistent": true,
+        "Data": {
+          "DataType": "String",
+          "DefaultValue": "801f12......",
+          "Mask": ""
+        }
+      }
+    ]
+  }
+}

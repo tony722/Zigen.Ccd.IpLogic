@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AET.Zigen.Ccd.IpLogic", "AET.Zigen.Ccd.IpLogic\AET.Zigen.Ccd.IpLogic.csproj", "{0B22A4B8-006C-4E67-8755-D24E740011DB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Referenced Libraries", "Referenced Libraries", "{D9E376E0-91CC-43E7-8F65-C2C1A243502F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B22A4B8-006C-4E67-8755-D24E740011DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B22A4B8-006C-4E67-8755-D24E740011DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B22A4B8-006C-4E67-8755-D24E740011DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B22A4B8-006C-4E67-8755-D24E740011DB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
