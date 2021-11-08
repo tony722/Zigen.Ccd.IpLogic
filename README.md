@@ -15,11 +15,11 @@ on the processor using an FTP client or Crestron Toolbox
 
 ### Upgrade
 * Go to "Pair Devices" in Crestron Home Setup
-* Remove the HxlPlus from any rooms it is in
+* Remove the IP-Logic from any rooms it is in
 * Reboot the Crestron Home OS Processor
 * Copy the .pkg file to /user/ThirdPartyDrivers/Import  
 on the processor using an FTP client or Crestron Toolbox
-* Go back to "Pair Devices" and re-add the HxlPlus to any rooms needed
+* Go back to "Pair Devices" and re-add the IP-Logic to any rooms needed
 
 
 ## Crestron Home OS Package:
